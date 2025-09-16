@@ -33,7 +33,7 @@ FCTN_vb = FCTN_vb.run(MAX_Iter)
 ```
 
 ## 🗂 Folder Structure
-```plaintext
+```
 BRFCTN/
 ├── Data/        # The visual dataset used for the code, we choose HSI from [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/) dataset here. Include one representative image from CAVE called "balloons".
 ├── Evaluation/  # Stores functions for calculating evaluation metrics, including PSNR, SSIM, FSIM, RMSE, and ERGAS.
