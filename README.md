@@ -50,7 +50,10 @@ BRFCTN/
 - Support for various visual datasets such as LFI, Video, and HSI and multiple noise scenarios (especially for mixtrue noise), which demonstrates superior rubustness.
 - Leveraging the Bayesian framework, faster model learning efficiency than the recently proposed **Fully-Connected Tensor Network Decomposition for Robust Tensor Completion Problem(RNC-FCTN)**, which is also based on the FCTN framework.
 
-
+```markdown
+要创建链接，请使用以下语法：
+[链接文字](https://example.com)
+```
 
 
 
