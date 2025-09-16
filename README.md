@@ -12,5 +12,5 @@ To verify the BRFCTN for data denoising, please run demo.m the test the example 
 
 - **`Model`**: Stores the model of BRFCTN.
   - **`run FCTN_model(D, Rank, hyperparameters) to build the class:`**
-    $ FCTN_vb = FCTN_model(D, Rank, hyperparameters)
+$ FCTN_vb = FCTN_model(D, Rank, hyperparameters)
   - **`run `**
