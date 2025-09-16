@@ -35,7 +35,7 @@ FCTN_vb = FCTN_vb.run(MAX_Iter)
 ## 🗂 Folder Structure
 ```
 BRFCTN/
-├── Data/        # The visual dataset used for the code, we choose HSI from ```markdown[CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/)``` dataset here. Include one representative image from CAVE called "balloons".
+├── Data/        # The visual dataset used for the code, we choose HSI from CAVE dataset here. Include one representative image from CAVE called "balloons".
 ├── Evaluation/  # Stores functions for calculating evaluation metrics, including PSNR, SSIM, FSIM, RMSE, and ERGAS.
 ├── Function/    # Stores functions for higher-order tensor calculating, including contraction and tn_prod operator used in FCTN strcture.
 ├── Model/       # Stores the model of BRFCTN.
@@ -50,10 +50,6 @@ BRFCTN/
 - Support for various visual datasets such as LFI, Video, and HSI and multiple noise scenarios (especially for mixtrue noise), which demonstrates superior rubustness.
 - Leveraging the Bayesian framework, faster model learning efficiency than the recently proposed **Fully-Connected Tensor Network Decomposition for Robust Tensor Completion Problem(RNC-FCTN)**, which is also based on the FCTN framework.
 
-```markdown
-要创建链接，请使用以下语法：
-[链接文字](https://example.com)
-```
 
 
 
