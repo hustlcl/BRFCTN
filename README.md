@@ -13,12 +13,14 @@ To verify the BRFCTN for data denoising, please run demo.m the test the example 
 - **`Model`**: Stores the model of BRFCTN.
   - **`run FCTN_model(D, Rank, hyperparameters) to build the class:`**
 
-To build the class of BRFCTN:
+## To build the class of BRFCTN:
   ### `FCTN_vb = FCTN_model(D, Rank, hyperparameters)`
 D is the corrupted tensor, Rank is the predefined FCTN-ranks, and hyperparameters are set as 1e-6 for non-informative prior.
-Then initial the model:
+
+## Then initial the model:
   ### `FCTN_vb = FCTN_vb.initialize()`
-Finally run the model:
+  
+## Finally run the model:
   ### `FCTN_vb = FCTN_vb.run(MAX_Iter)`
 
 
