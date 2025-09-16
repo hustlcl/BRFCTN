@@ -13,7 +13,7 @@ To verify the BRFCTN for data denoising, run:
 Demo
 ```
 
-To build the class of BRFCTN:
+The code will first build the class of BRFCTN:
 
 ```matlab
 FCTN_vb = FCTN_model(D, Rank, hyperparameters)
