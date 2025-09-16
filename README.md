@@ -4,12 +4,11 @@ MATLAB implementation of BRFCTN for visual data denoising
 To verify the BRFCTN for data denoising, please run demo.m the test the example data.
 
 ## Project structure
-- **`src/`**: 存放项目所有主要的源代码。
-  - **`components/`**: 通用的React/Vue/等UI组件。
-  - **`pages/`**: 与路由对应的页面组件。
-  - **`utils/`**: 辅助函数，如日期处理、HTTP请求等。
+- **`Data\`**: The visual dataset used for the code, we choose HSI from [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/) dataset here.
+  - **`balloons_ms.mat`**: A representative image from CAVE called "balloons".
 
-- **`public/`**: 存放不需要经过构建流程的静态文件，如 favicon.ico, robots.txt 等。
+- **`Evaluation\`**: Stores functions for calculating evaluation metrics, including PSNR, SSIM, FSIM, RMSE, and ERGAS.
+  - **
 
 - **`docs/`**: 项目相关的详细文档。
 
