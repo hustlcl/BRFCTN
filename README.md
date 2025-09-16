@@ -11,7 +11,7 @@ To verify the BRFCTN for data denoising, please run demo.m to test the example d
 - **`Functions`**: Stores functions for higher-order tensor calculating, including contraction and tn_prod operator used in FCTN strcture.
 
 - **`Model`**: Stores the model of BRFCTN.
-  - **`run FCTN_model(D, Rank, hyperparameters) to build the class:`**
+  - **`run FCTN_model(D, Rank, hyperparameters) to build the class.`**
 
 ## To build the class of BRFCTN:
   ### `FCTN_vb = FCTN_model(D, Rank, hyperparameters)`
