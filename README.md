@@ -2,7 +2,7 @@
 
 **Authors:** Changlong Li, Zecan Yang, Laurence T. Yang, Linsong Shan, Honglu Zhao
 
-This repository provides a MATLAB implementation of the method proposed in our paper called BRFCTN:
+This repository provides a MATLAB implementation of the method proposed in our paper called BRFCTN.
 
 
 
