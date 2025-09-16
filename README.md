@@ -4,12 +4,11 @@ MATLAB implementation of BRFCTN for visual data denoising
 To verify the BRFCTN for data denoising, please run demo.m the test the example data.
 
 ## Project structure
-- **`Data\`**: The visual dataset used for the code, we choose HSI from [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/) dataset here.
-  - **`balloons_ms.mat`**: A representative image from CAVE called "balloons".
-
+- **`Data\`**: The visual dataset used for the code, we choose HSI from [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/) dataset here. Include one representative image from CAVE called "balloons".
+- 
 - **`Evaluation\`**: Stores functions for calculating evaluation metrics, including PSNR, SSIM, FSIM, RMSE, and ERGAS.
 
 - **`Functions\`**: Stores functions for higher-order tensor calculating, including contraction and tn_prod operator used in FCTN strcture.
 
 - **`Model\`**: Stores the model of BRFCTN.
-  run FCTN_model(D, Rank, hyperparameters) to build the class 
+  - run FCTN_model(D, Rank, hyperparameters) to build the class 
