@@ -1,7 +1,7 @@
 # BRFCTN
 MATLAB implementation of BRFCTN for visual data denoising
 ## BRFCTN quickstart
-To verify the BRFCTN for data denoising, please run demo.m the test the example data.
+To verify the BRFCTN for data denoising, please run demo.m to test the example data.
 
 ## Project structure
 - **`Data`**: The visual dataset used for the code, we choose HSI from [CAVE](https://www.cs.columbia.edu/CAVE/databases/multispectral/) dataset here. Include one representative image from CAVE called "balloons".
